@@ -41,3 +41,5 @@ scratch/
 *.njsproj
 *.sln
 *.sw?
+
+*.pem
