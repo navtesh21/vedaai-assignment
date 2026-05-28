@@ -1,0 +1,43 @@
+# ── Node.js & Dependencies ──
+node_modules/
+npm-debug.log
+yarn-error.log
+
+# ── Environment Variables ──
+# Ignore all .env files by default
+.env
+.env.*
+!.env.example
+*.env
+backend/.env
+frontend/.env
+frontend/.env.local
+
+# ── Build Output ──
+dist/
+build/
+.next/
+out/
+coverage/
+
+# ── Temporary & System Files ──
+.DS_Store
+Thumbs.db
+*.log
+*.tar
+*.tar.gz
+vedaai-app.tar.gz
+
+# ── Project Specific ──
+backend/uploads/
+# (If you have a scratch folder for testing/generation, ignore it here)
+scratch/
+
+# ── IDEs & Editors ──
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
